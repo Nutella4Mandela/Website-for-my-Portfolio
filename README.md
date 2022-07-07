@@ -13,5 +13,10 @@ choose. HOME sends you back to the top of the page, ABOUT sends you down to my i
 links, and CONTACT gives you the option to contact me. 
 
 ![This is an image](/Images/About.PNG)
+# Biggest Challenges
+My biggest challenge was probably the design aspect of my page. I had to plan what I wanted to do with my design and then animate it, which 
+took forever. Then I had to adjust it so that it could fit in my site. I made many iterations to get this all to work properly. I also had to animate 
+some parts using Javascript. Then I had to fit all of that into the mobile version of my site. I had so many rough testings and hurdles I had to 
+solve, but it was well worth it considering the results. CSS was probably my biggest enemy in all of this, ironically...
 
 ![This is an image](/Images/ImagineLogo.gif)
