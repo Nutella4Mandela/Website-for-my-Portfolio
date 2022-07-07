@@ -14,4 +14,4 @@ links, and CONTACT gives you the option to contact me.
 
 ![This is an image](/Images/About.PNG)
 
-![This is an image](/Images/Imagine Logo.Gif)
+![This is an image](/Images/ImagineLogo.Gif)
