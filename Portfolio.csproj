@@ -139,34 +139,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_themes\MainDisplay\Background.png" />
-    <Content Include="App_themes\MainDisplay\Capture.png" />
-    <Content Include="App_themes\MainDisplay\MainDisplay.css" />
-    <Content Include="App_themes\MainDisplay\MeHappyClosed.png" />
-    <Content Include="App_themes\MainDisplay\Me.gif" />
-    <Content Include="App_themes\MainDisplay\MeHappy.gif" />
-    <Content Include="App_themes\MainDisplay\Sprite.png" />
+    <Content Include="Content\Background.png" />
+    <Content Include="Content\Capture.png" />
+    <Content Include="Content\MainDisplay.css" />
+    <Content Include="Content\MeHappyClosed.png" />
+    <Content Include="Content\Me.gif" />
+    <Content Include="Content\MeHappy.gif" />
+    <Content Include="Content\MobileDisplay.css" />
+    <Content Include="Content\Sprite.png" />
     <Content Include="Cat.ico" />
     <Content Include="Images\burger.png" />
-    <Content Include="Images\CityReflectWide.gif" />
+    <Content Include="Content\CityReflectWide.gif" />
     <Content Include="Images\Computer.gif" />
     <Content Include="Images\Github.png" />
+    <Content Include="Images\Imagine Logo Phone.gif" />
     <Content Include="Images\Instagram.png" />
     <Content Include="Images\LinkedIn.png" />
     <Content Include="Images\Me.gif" />
-    <Content Include="Images\CitNoReflect.gif" />
-    <Content Include="Images\CityReflect.gif" />
-    <Content Include="Images\CityTopWide.gif" />
+    <Content Include="Content\CitNoReflect.gif" />
+    <Content Include="Content\CityReflect.gif" />
+    <Content Include="Content\CityTopWide.gif" />
     <Content Include="Images\Imagine Logo.gif" />
     <Content Include="Images\MenuBar.png" />
     <Content Include="Images\PurpleCoin.png" />
-    <Content Include="Me-export.ico" />
-    <Content Include="Pages\Contact.aspx" />
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Unused\bootstrap-theme.css" />
+    <Content Include="Unused\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Unused\bootstrap.min.css" />
+    <Content Include="Unused\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -174,12 +174,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Unused\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="App_themes\MainDisplay\Inkbit-Regular.ttf" />
+    <Content Include="Unused\bootstrap-theme.min.css.map" />
+    <Content Include="Unused\bootstrap-theme.css.map" />
+    <Content Include="Content\Inkbit-Regular.ttf" />
     <Content Include="fonts\Inkbit-Regular.ttf" />
+    <None Include="Properties\PublishProfiles\NelsonVillegasPortfolio - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="HomePage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -227,13 +228,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Pages\Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -268,7 +262,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Unused\" />
+    <Folder Include="App_themes\MainDisplay\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

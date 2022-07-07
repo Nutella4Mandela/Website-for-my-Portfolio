@@ -7,38 +7,31 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Portfolio {
-    
-    
-    public partial class Site_Mobile {
-        
+namespace Portfolio
+{
+
+
+    public partial class Site_Mobile
+    {
+
         /// <summary>
-        /// HeadContent control.
+        /// Hello control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
-        
+        protected global::System.Web.UI.WebControls.Image Hello;
+
         /// <summary>
-        /// form1 control.
+        /// Menu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
-        /// FeaturedContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder FeaturedContent;
-        
+        protected global::System.Web.UI.WebControls.Image Menu;
+
         /// <summary>
         /// MainContent control.
         /// </summary>
@@ -47,5 +40,14 @@ namespace Portfolio {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+
+        /// <summary>
+        /// ChangingContent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ChangingContent;
     }
 }

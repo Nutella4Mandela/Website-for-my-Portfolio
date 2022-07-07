@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+    <link rel="stylesheet" href="/Content/MainDisplay.css" type="text/css" />
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -58,9 +59,10 @@
 
             <div class="container body-content">
             <hr />
-            <footer >
-                <p>&copy; <%: DateTime.Now.Year %> - Nelson Villegas' Portfolio</p>
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Nelson Villegas</p>
             </footer>
+
                 </div>
 
     </form>
