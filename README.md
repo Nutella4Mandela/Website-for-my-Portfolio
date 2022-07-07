@@ -11,3 +11,5 @@ about who I am and what I do. Most of what I made I tried to make it interactive
 hover on the icons. I've also made my own font for the purpose of this site. If you go on the navigational menu, it gives you different options to 
 choose. HOME sends you back to the top of the page, ABOUT sends you down to my introduction and what I do, PORTFOLIO sends you to my 
 links, and CONTACT gives you the option to contact me. 
+
+![This is an image](/Content/CitNoReflect.PNG)
