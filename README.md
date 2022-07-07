@@ -20,3 +20,14 @@ animate some parts using Javascript. Then I had to fit all of that into the mobi
 had to solve, but it was well worth it considering the results. CSS was probably my biggest enemy in all of this, ironically...
 
 ![This is an image](/Images/ImagineLogo.gif)
+# Unimplemented Features
+I was a little ambitious with everything I wanted to do, but I ended up trying to make it as simple as it can be. I was also at a time crunch since I 
+was graduating at the time. Even if I wanted to add all of my ideas in, it just couldn't work. The first idea I wanted to implement was interaction 
+with all of the objects you see here below. I ended up with only having one gif file to cram it all in since it was too ambitious of an idea. As you 
+can see, there was so much going on. I couldn't plan all of it, let alone animate it and see what it does. Maybe someday when I'm not trying to 
+kill myself over it. I've also wanted to make three more pages: my music page, my art page, and a blog. I then realized that it wasn't really going 
+to be necessary, considering the fact that these skills weren't needed for the job that I'm looking for. As for blogs, I knew I wasn't going to 
+update them regularly, to be real. And besides, who would want to check up on them? Instagram just seemed like the better contender, so I 
+added that as a link.
+
+![This is an image](/Content/CitNoReflect.gif)
