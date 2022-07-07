@@ -4,8 +4,9 @@
 </asp:Content>
 
 <asp:Content ID ="Content2" ContentPlaceHolderID="ChangingContent" Runat="server">
-    <asp:Image ID="Image2" Class="Title" runat="server" ImageUrl ="~/Images/CityTopWide.gif"></asp:Image>
-        <asp:Image ID="Image3" Class="Title" runat="server" ImageUrl ="~/Images/CityReflectWide.gif"></asp:Image>
+
+    <asp:Image ID="Image2" Class="Title" runat="server"></asp:Image>
+        <asp:Image ID="Image3" Class="Title2" runat="server"></asp:Image>
     <div class="container body-content">
     <br />
         <br />
@@ -30,6 +31,9 @@
         
     <div id="Portfolio" class="portfolio reveal fade-bottom">
         <h1>Check my Stuff Out!</h1>
+         </div>
+
+      </div>
         <div class="subportfolio">
         <asp:ImageButton ID="Instagram" CssClass="pages" runat="server" ImageUrl ="~/Images/Instagram.png" PostBack="Instagram_Click" OnClick="Instagram_Click" />
         <h4>Instagram</h4>
@@ -42,10 +46,6 @@
         <asp:ImageButton ID="LinkedIn" CssClass="pages" runat="server" ImageUrl ="~/Images/LinkedIn.png" PostBack="LinkedIn_Click" OnClick="LinkedIn_Click" />
         <h4>LinkedIn</h4>
         </div>
-
-        </div>
-
-      </div>
 
     <script src="Reveal.js" type="text/javascript"></script>
 
