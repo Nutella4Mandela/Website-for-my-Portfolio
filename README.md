@@ -6,7 +6,7 @@ tried to make it as simple as it can possibly be to make it easier to access my 
 because you came from my site, welcome! Enjoy your stay! I used ASP.Net, C#, Javascript, Aseprite, and last, but not least, CSS!
 
 # HomePage(The only page)
-The homepage starts with a Imagine Logo, then it disappears, showing the actual page with a navigational menu. Scrolling down shows more 
+The homepage starts with an Imagine Logo, then it disappears, showing the actual page with a navigational menu. Scrolling down shows more 
 about who I am and what I do. Most of what I made I tried to make it interactive, having different animations and size depending on if you 
 hover on the icons. I've also made my own font for the purpose of this site. If you go on the navigational menu, it gives you different options to 
 choose. HOME sends you back to the top of the page, ABOUT sends you down to my introduction and what I do, PORTFOLIO sends you to my 
