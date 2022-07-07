@@ -13,3 +13,5 @@ choose. HOME sends you back to the top of the page, ABOUT sends you down to my i
 links, and CONTACT gives you the option to contact me. 
 
 ![This is an image](/Images/About.PNG)
+
+![This is an image](/Images/Imagine Logo.Gif)
