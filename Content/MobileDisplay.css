@@ -1,0 +1,358 @@
+﻿body {
+    background-image: url(Background.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: InkBit;
+    src: url(Inkbit-Regular.ttf);
+}
+
+/* Hello */
+.Hello {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+/* Nav Bar */
+.Menu {
+    width: 20%;
+    z-index: 1;
+    background-color: transparent;
+}
+
+UL.nav > LI {
+    background-color: transparent;
+    position: fixed;
+    float: right;
+    padding-top: 10px;
+    padding-left: 20px;
+    z-index: 1;
+}
+
+UL.nav UL {
+    left: -10000px;
+    position: absolute;
+    z-index: 1;
+}
+
+UL.nav > LI UL {
+    width: 00px;
+    height: 00px;
+    opacity: 0;
+    z-index: 1;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+}
+
+UL.nav > LI:hover UL {
+    list-style-type: none;
+    border-radius: 300px;
+    padding-left: 60px;
+    top: -70px;
+    left: -70px;
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+    opacity: 100;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+    border: 10px solid purple; /* IE7 has problems without this */
+    padding: 0;
+    margin: 0;
+    padding-top: 80px;
+    text-align: center;
+    z-index: 1;
+}
+
+.nav a {
+    font-family: InkBit;
+    font-size: 29px;
+    color: black;
+    z-index: 1;
+    text-decoration: none;
+}
+
+    .nav a:hover {
+        color: white;
+        text-decoration: wavy underline;
+    }
+
+/* Title */
+
+.Title {
+    width: 100%;
+    content: url(CitNoReflect.gif);
+}
+
+.Title2 {
+    width: 100%;
+    content: url(CityReflect.gif);
+} 
+
+/* My intro */
+.intro {
+    border: 10px solid purple;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.Me {
+    padding-top: 3%;
+    position: relative;
+    width: 50%;
+    height:26%;
+    box-sizing: border-box;
+    content: url(Me.gif);
+    color: inherit;
+    transition: width 0.3s, height 0.3s, padding-top 0.3s, padding-left 0.3s, padding-right 0.3s, left 0.3s;
+    left: 25%;
+}
+
+    .Me:hover {
+        padding-top: 2%;
+        left: 20%;
+        position: relative;
+        width: 58%;
+        height: 26%;
+        content: url(MeHappy.gif);
+        transition: width 0.5s, height 0.5s padding-top 0.3s, padding-left 0.3s, padding-right 0.3s, left 0.3s;
+    }
+
+    .Me:active {
+        position: relative;
+        width: 57%;
+        height: 26%;
+        left: 20%;
+        padding-right: 0.5%;
+        padding-left: 0.5%;
+        padding-top: 2.5%;
+        content: url(MeHappyClosed.png);
+        transition: width 0.1s, height 0.1s padding-top 0.1s, padding-left 0.1s, padding-right 0.1s, left 0.3s;
+    }
+
+.intro .lead {
+    padding-top: 5%;
+    color: white;
+}
+
+.intro h1,
+.intro .h1 {
+    box-sizing: border-box;
+    color: inherit;
+    position: relative;
+    font-family: InkBit;
+}
+
+.intro p {
+    font-size: 95%;
+    font-weight: 200;
+    bottom: 2%;
+    position: relative;
+    font-family: InkBit;
+}
+
+.intro > hr {
+    border-top-color: #d5d5d5;
+}
+
+.container .intro,
+.container-fluid .intro {
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    border-radius: 6px;
+}
+
+
+/* What I do */
+.introsub {
+    border: 10px solid purple;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
+.Do {
+    padding-top: 4%;
+    width: 50%;
+    height: 26%;
+    box-sizing: border-box;
+    color: inherit;
+    transition: width 0.3s, height 0.3s, padding-top 0.3s, padding-left 0.3s, padding-right 0.3s;
+}
+
+    .Do:hover {
+        width: 58%;
+        height: 26%;
+        transition: width 0.5s, height 0.5s padding-top 0.5s, padding-left 0.5s, padding-right 0.5s;
+        padding-top: 3%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .Do:active {
+        width: 57%;
+        height: 26%;
+        transition: width 0.1s, height 0.1s padding-top 0.1s, padding-left 0.1s, padding-right 0.1s;
+    }
+
+.introsub .lead {
+    padding-top: 5%;
+}
+
+.introsub h1,
+.introsub .h1 {
+    font-family: InkBit;
+    box-sizing: border-box;
+    color: inherit;
+    position: relative;
+}
+
+.introsub p {
+    font-family: InkBit;
+    padding-right: 5%;
+    font-size: 96%;
+    font-weight: 200;
+    bottom: 2%;
+    position: relative;
+}
+
+.introsub > hr {
+    border-top-color: #d5d5d5;
+}
+
+.container .introsub,
+.container-fluid .introsub {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+
+.container .intro,
+.container-fluid .intro {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+
+
+
+/* Portfolio list */
+.portfolio {
+    max-width: 100%;
+}
+
+    .portfolio h1,
+    portfolio h1 {
+        font-family: InkBit;
+        text-align: center;
+        color: white;
+        font-size: 90px;
+    }
+
+.subportfolio {
+    font-family: InkBit;
+    padding: 1em;
+    width: 33%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    font-size: 30%;
+    line-height: 23px;
+    padding: 20px 0px 40px 0px;
+    color: white;
+}
+
+    .subportfolio:hover {
+        color: purple;
+        transition: color 0.5s;
+    }
+
+.pages {
+    width: 70%;
+    height: 50%;
+    transition: width 0.1s, height 0.1s;
+}
+
+    .pages:hover {
+        width: 75%;
+        height: 55%;
+        transition: width 0.5s, height 0.5s;
+    }
+
+    .pages:active {
+        width: 80%;
+        height: 60%;
+        transition: width 0s, height 0s;
+    }
+
+
+.reveal {
+    position: relative;
+    opacity: 0;
+    transition: 0.5s all ease;
+}
+
+    .reveal.active {
+        opacity: 1;
+    }
+
+.active.fade-bottom {
+    animation: fade-bottom 0.5s ease-in;
+}
+
+.active.fade-left {
+    animation: fade-left 0.5s ease-in;
+}
+
+.active.fade-right {
+    animation: fade-right 0.5s ease-in;
+}
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

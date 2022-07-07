@@ -1,0 +1,384 @@
+﻿body {
+    background-image: url(Background.png); 
+    background-repeat: repeat-x;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family:  InkBit;
+    src: url(Inkbit-Regular.ttf);
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.body-content {
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+}
+
+/* Hello */
+.Hello {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+/* Nav Bar */
+.Menu {
+    width: 30%;
+    z-index: 1;
+    background-color: transparent;
+}
+UL.nav > LI {
+    background-color: transparent;
+    position: fixed;
+    float: right;
+    padding-top:10px;
+    padding-left:20px;
+    z-index: 1;
+}
+
+UL.nav UL{
+    left: -10000px;
+    position: absolute;    
+    z-index: 1;
+}
+UL.nav > LI UL {
+    width: 00px;
+    height: 00px;
+    opacity: 0;
+    z-index: 1;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+}
+UL.nav > LI:hover UL {
+    list-style-type: none;
+    border-radius: 300px;
+    padding-left: 60px;
+    top: -70px;
+    left: -70px;
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+    opacity: 100;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+    border: 10px solid purple; /* IE7 has problems without this */
+    padding: 0;
+    margin: 0;
+    padding-top: 80px;
+    text-align: center;
+    z-index: 1;
+}
+.nav a {
+    font-family: InkBit;
+    font-size: 29px;
+    color: black;
+    z-index: 1;
+    text-decoration: none;
+}
+
+    .nav a:hover {
+        color: white;
+        text-decoration: wavy underline;
+    }
+
+/* Title */
+.Title {
+    width: 100%;
+    height: 780px;
+    content: url(CityTopWide.gif);
+}
+
+.Title2 {
+    width: 100%;
+    content: url(CityReflectWide.gif);
+    height: 780px;
+}
+
+/* My intro */
+.intro {
+    border: 10px solid purple;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+}
+.Me {
+    padding-top: 3%;
+    position: relative;
+    width: 26%;
+    height: 260px;
+    box-sizing: border-box;
+    content: url(Me.gif);
+    color: inherit;
+    transition: width 0.3s, height 0.3s, padding-top 0.3s, padding-left 0.3s, padding-right 0.3s;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+    .Me:hover {
+        padding-top: 2%;
+        position: relative;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 28%;
+        height: 280px;
+        padding-right: 0px;
+        content: url(MeHappy.gif);
+        transition: width 0.5s, height 0.5s padding-top 0.3s, padding-left 0.3s, padding-right 0.3s;
+    }
+    .Me:active {
+        position: relative;
+        width: 27%;
+        height: 270px;
+        padding-right: 0.5%;
+        padding-left: 0.5%;
+        padding-top: 2.5%;
+        content: url(MeHappyClosed.png);
+        transition: width 0.1s, height 0.1s padding-top 0.1s, padding-left 0.1s, padding-right 0.1s;
+    }
+
+.intro .lead {
+    padding-top: 5%;
+    color: white;
+}
+
+.intro h1,
+.intro .h1 {
+    box-sizing: border-box;
+    color: inherit;
+    padding-left: 20%;
+    bottom: 2%;
+    font-size: 110%;
+    position: relative;
+    font-family: InkBit;
+}
+
+.intro p {
+    font-size: 95%;
+    font-weight: 200;
+    bottom: 2%;
+    float: left;
+    padding-left: 6%;
+    position: relative;
+    font-family: InkBit;
+}
+
+    .intro > hr {
+        border-top-color: #d5d5d5;
+    }
+
+.container .intro,
+.container-fluid .intro {
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    border-radius: 6px;
+}
+
+
+/* What I do */
+.introsub {
+    border: 10px solid purple;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgba(0,0,0,0.6);
+    opacity: 50%;
+    display: flex;
+    color: white;
+}
+
+.Do {
+    padding-top: 4%;
+    width: 24%;
+    height: 240px;
+    box-sizing: border-box;
+    color: inherit;
+    padding-right: 2%;
+    padding-left: 2%;
+    transition: width 0.3s, height 0.3s, padding-top 0.3s, padding-left 0.3s, padding-right 0.3s;
+}
+    .Do:hover {
+        width: 26%;
+        height: 260px;
+        transition: width 0.5s, height 0.5s padding-top 0.5s, padding-left 0.5s, padding-right 0.5s;
+        padding-top: 3%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .Do:active {
+        width: 25%;
+        height: 250px;
+        transition: width 0.1s, height 0.1s padding-top 0.1s, padding-left 0.1s, padding-right 0.1s;
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+        padding-top: 3.5%;
+    }
+
+.introsub .lead {
+    padding-top: 5%;
+}
+
+.introsub h1,
+.introsub .h1 {
+    font-family: InkBit;
+    padding-left: 2%;
+    box-sizing: border-box;
+    color: inherit;
+    left: 0px;
+    bottom: 20px;
+    font-size: 110%;
+    position: relative;
+}
+
+.introsub p {
+    font-family: InkBit;
+    padding-right: 5%;
+    font-size: 96%;
+    font-weight: 200;
+    bottom: 2%;
+    position: relative;
+}
+
+.introsub > hr {
+    border-top-color: #d5d5d5;
+}
+
+.container .introsub,
+.container-fluid .introsub {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+
+.container .intro,
+.container-fluid .intro {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+    
+
+
+/* Portfolio list */
+.portfolio {
+    max-width: 100%;
+}
+    .portfolio h1,
+    portfolio h1 {
+        font-family: InkBit;
+        text-align: center;
+        color: white;
+        font-size: 90px;
+    }
+    .subportfolio h4, h4 {
+        font-size: 30px;
+    }
+.subportfolio {
+    font-family: InkBit;
+    padding: 1em;
+    width: 33%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    font-size: 30%;
+    line-height: 23px;
+    padding: 20px 0px 40px 0px;
+    color: white;
+}
+
+    .subportfolio:hover {
+        color: purple;
+        transition: color 0.5s;
+    }
+
+.pages {
+    width: 30%;
+    height: 70%;
+    transition: width 0.1s, height 0.1s;
+}
+
+    .pages:hover {
+        width: 35%;
+        height: 75%;
+        transition: width 0.5s, height 0.5s;
+    }
+    .pages:active {
+        width: 40%;
+        height: 80%;
+        transition: width 0s, height 0s;
+    }
+
+
+.reveal {
+    position: relative;
+    opacity: 0;
+    transition: 0.5s all ease;
+}
+
+    .reveal.active {
+        opacity: 1;
+    }
+
+.active.fade-bottom {
+    animation: fade-bottom 0.5s ease-in;
+}
+
+.active.fade-left {
+    animation: fade-left 0.5s ease-in;
+}
+
+.active.fade-right {
+    animation: fade-right 0.5s ease-in;
+}
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
